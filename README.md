@@ -34,6 +34,7 @@
   * [Installing](#installing)
   * [Running the app](#running-the-app)
   * [Pack the app](#pack-the-app)
+* [License](#license)
 
 ## Configure
 > Configure your project by edit `config.js` inside `/build`
@@ -70,14 +71,14 @@ What you need to run this app:
 * `clone` your fork
 * `npm install` to install all dependencies
 
-###Running the app
+### Running the app
 After you have installed all dependencies you can now run the app with:
 ```
  npm start
 ```
 It will start a local server using `express` with `webpack-dev-middleware` which will watch,rebuild,reload for you.The port will be displayed to you in terminal.As the same time, the nwjs client will auto start.
 
-###Pack the app
+### Pack the app
 After you've developed app, you can build and compress the app with:
 ```
   npm run build
@@ -88,5 +89,5 @@ How to package your app by dist file?
 
 see [http://docs.nwjs.io/package-your-app](http://docs.nwjs.io/en/latest/For%20Users/Package%20and%20Distribute/#package-your-app)
 
-##License
+## License
 MIT
