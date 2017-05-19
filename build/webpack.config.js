@@ -13,6 +13,7 @@ const stylusLoader = extractCssPlugin.extract(['css-loader','autoprefixer-loader
 var htmlPlugin = new HtmlWebpackPlugin({filename: 'index.html', template: resolve(`${PATH_CONFIG.MAIN}/index.html`), inject: true, title: DEFAULT_CONFIG.TITLE});
 
 module.exports = {
+  target:'node-webkit',
   entry: {
     app: resolve(PATH_CONFIG.MAIN)
   },
