@@ -1,0 +1,7 @@
+{
+  "main": "index.html",
+  "name": "node-webkit",
+  "webkit": {
+    "plugin": true
+  }
+}
