@@ -27,7 +27,7 @@
   $ npm dev
 ```
 
-##Table of Contents
+## Table of Contents
 * [Configure](#configure)
 * [Getting Started](#getting-started)
   * [Dependencies](#dependencies)
@@ -60,7 +60,7 @@ const RESOLVE_CONFIG = {
 ```
 > You can also configure `webpack.config.js`、`webpack.dev.js`、`webpack.prod.js`
 
-##Getting Started
+## Getting Started
 ### Dependencies
 What you need to run this app:
 * `node` and `nw` (Use NVM)
